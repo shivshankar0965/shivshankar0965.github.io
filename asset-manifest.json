@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1faaed93.css",
-    "main.js": "/static/js/main.5b6bcc6d.js",
+    "main.css": "/static/css/main.13ea7d7c.css",
+    "main.js": "/static/js/main.61a25705.js",
     "static/js/787.22e3b59d.chunk.js": "/static/js/787.22e3b59d.chunk.js",
     "static/media/profile2.png": "/static/media/profile2.b4c370616b9af12ec554.png",
     "static/media/profile1.jpg": "/static/media/profile1.fdb986cac8ca0a9e0a29.jpg",
@@ -15,6 +15,7 @@
     "static/media/spotify.png": "/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
+    "static/media/profile_logo.png": "/static/media/profile_logo.768a0bc0c4650b7fc1b7.png",
     "static/media/adidas.png": "/static/media/adidas.83df8153294f9137d308.png",
     "static/media/bolt.png": "/static/media/bolt.64e7d9d30ece478ef3a0.png",
     "static/media/redux.png": "/static/media/redux.c9be37e0fece29c624b0.png",
@@ -31,12 +32,12 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.1faaed93.css.map": "/static/css/main.1faaed93.css.map",
-    "main.5b6bcc6d.js.map": "/static/js/main.5b6bcc6d.js.map",
+    "main.13ea7d7c.css.map": "/static/css/main.13ea7d7c.css.map",
+    "main.61a25705.js.map": "/static/js/main.61a25705.js.map",
     "787.22e3b59d.chunk.js.map": "/static/js/787.22e3b59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1faaed93.css",
-    "static/js/main.5b6bcc6d.js"
+    "static/css/main.13ea7d7c.css",
+    "static/js/main.61a25705.js"
   ]
 }
