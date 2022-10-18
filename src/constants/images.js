@@ -37,8 +37,10 @@ import spotify from "../assets/spotify.png";
 import profile1 from "../assets/profile1.jpg";
 import profile2 from "../assets/profile2.png";
 import profile_logo from "../assets/profile_logo.png"
+import profile1_logo from "../assets/profile1_logo.png"
 const images = {
   profile_logo,
+  profile1_logo,
   profile2,
   profile1,
   email,
