@@ -1,44 +1,46 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
+import { AppWrap } from "../../wrapper";
 import "./About.scss";
-import { images } from "../../constants";
+// import { images } from "../../constants";
 import { urlFor, client } from "../../client";
-const about = [
-  {
-    title: "Web Development",
-    desc: "I am a good web developer",
-    imgUrl: images.about04,
-  },
-  {
-    title: "FrontEnd Developer",
-    desc: "I am a good frontEnd developer",
-    imgUrl: images.about02,
-  },
-  {
-    title: "BackEnd Developer",
-    desc: "I am a good backend developer",
-    imgUrl: images.about03,
-  },
-  {
-    title: "UI/UX",
-    desc: "I am a good UI/UX designer",
-    imgUrl: images.about01,
-  },
-];
+// const about = [
+//   {
+//     title: "Web Development",
+//     desc: "I am a good web developer",
+//     imgUrl: images.about04,
+//   },
+//   {
+//     title: "FrontEnd Developer",
+//     desc: "I am a good frontEnd developer",
+//     imgUrl: images.about02,
+//   },
+//   {
+//     title: "BackEnd Developer",
+//     desc: "I am a good backend developer",
+//     imgUrl: images.about03,
+//   },
+//   {
+//     title: "UI/UX",
+//     desc: "I am a good UI/UX designer",
+//     imgUrl: images.about01,
+//   },
+// ];
 const About = () => {
   const [abouts, setAbouts] = useState([]);
   useEffect(() => {
     const query = '*[_type == "abouts"]';
     client.fetch(query).then((data) => {
       setAbouts(data);
-    })
-  },[])
+    });
+  }, []);
   return (
     <>
       <h2 className="head-text">
         I Know that
-        <span> Good Development</span><br />means<span> Good Business</span>
+        <span> Good Development</span>
+        <br />
+        means<span> Good Business</span>
       </h2>
       <div className="app__profiles">
         {abouts.map((item, idx) => (
@@ -63,4 +65,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AppWrap(About, "about");
