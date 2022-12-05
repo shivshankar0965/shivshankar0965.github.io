@@ -60,9 +60,12 @@
     flex-direction: column;
     margin-top: 3rem;
     p {
+      margin-top: 0.5rem;
       width: 100%;
-      text-transform: uppercase;
-      text-align: right;
+      text-align: left;
+      @media screen and (max-width: 900px) {
+        font-size: 1rem;
+      }
     }
   }
   span {
@@ -74,6 +77,26 @@
   @media screen and (max-width: 1200px) {
     justify-content: flex-start;
     align-items: flex-start;
+  }
+  .resume-download-btn {
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.3rem 1rem;
+    color: #fff;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+    span {
+      font-size: 1.2rem;
+      margin-right: 0.5rem;
+      transition: all ease-in-out 0.3s;
+    }
+    &:hover {
+      span {
+        margin-right: 1.5rem;
+      }
+    }
   }
 }
 .app__header-circles {
@@ -141,6 +164,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   position: relative;
+  margin-left: 3rem;
 
   img {
     width: 100%;
@@ -157,6 +181,9 @@
     height: 90%;
   }
   @media screen and (max-width: 1200px) {
+    margin: 2rem 0;
+  }
+  @media screen and (max-width: 576px) {
     margin: 2rem 0;
   }
 }

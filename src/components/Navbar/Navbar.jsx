@@ -3,6 +3,17 @@ import "./Navbar.scss";
 import { images } from "../../constants";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
+const navLinks = [
+  { title: "home", link: "home" },
+  { title: "about", link: "about" },
+  { title: "projects", link: "works" },
+  { title: "skills", link: "skills" },
+  { title: "contact", link: "contact" },
+  {
+    title: "resume",
+    link: "https://drive.google.com/uc?export=download&id=1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf",
+  },
+];
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
@@ -11,14 +22,16 @@ const Navbar = () => {
         <img src={images.profile1_logo} alt="logo" />
       </div>
       <ul className="app__navbar-links">
-        {["home", "about", "contact", "work", "skills", "contact"].map(
-          (item, i) => (
-            <li className="ap__flex p-text" key={`link-${i}`}>
-              <div />
-              <a href={`#${item}`}>{item}</a>
-            </li>
-          )
-        )}
+        {navLinks.map((item, i) => (
+          <li className="ap__flex p-text" key={`link-${i}`}>
+            <div />
+            <a
+              href={item.title === "resume" ? `${item.link}` : `#${item.link}`}
+            >
+              {item.title}
+            </a>
+          </li>
+        ))}
       </ul>
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
@@ -29,13 +42,17 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "about", "contact", "work", "skills", "contact"].map(
-                (item, i) => (
-                  <li key={`link-${i}`}>
-                    <a href={`#${item}`}>{item}</a>
-                  </li>
-                )
-              )}
+              {navLinks.map((item, i) => (
+                <li key={`link-${i}-${item.title}`}>
+                  <a
+                    href={
+                      item.title === "resume" ? `${item.link}` : `#${item.link}`
+                    }
+                  >
+                    {item.title}
+                  </a>
+                </li>
+              ))}
             </ul>
           </motion.div>
         )}
