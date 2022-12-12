@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5fdf0343.css",
-    "main.js": "/static/js/main.872d289a.js",
+    "main.css": "/static/css/main.2bea545f.css",
+    "main.js": "/static/js/main.902c24a6.js",
     "static/js/787.22e3b59d.chunk.js": "/static/js/787.22e3b59d.chunk.js",
     "static/media/profile2.png": "/static/media/profile2.b4c370616b9af12ec554.png",
     "static/media/profile1.jpg": "/static/media/profile1.fdb986cac8ca0a9e0a29.jpg",
@@ -11,8 +11,11 @@
     "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/profile.png": "/static/media/profile.ee489764521abe34026b.png",
+    "static/media/geekbuying_shot.jpg": "/static/media/geekbuying_shot.dbde386f80ce93a5e5d2.jpg",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
+    "static/media/shine_shot.jpg": "/static/media/shine_shot.8b0928e39ea2dd3f1522.jpg",
     "static/media/spotify.png": "/static/media/spotify.2b5e9be1eb1ab501e7cd.png",
+    "static/media/booking_shot.jpg": "/static/media/booking_shot.2856f0c0344640db43ce.jpg",
     "static/media/nb.png": "/static/media/nb.98f3253e32cc67a4cb5e.png",
     "static/media/asus.png": "/static/media/asus.514bc34955008a92e09f.png",
     "static/media/profile_logo.png": "/static/media/profile_logo.768a0bc0c4650b7fc1b7.png",
@@ -34,12 +37,12 @@
     "static/media/skype.png": "/static/media/skype.c8d7ee175da5b4c8a8ab.png",
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
-    "main.5fdf0343.css.map": "/static/css/main.5fdf0343.css.map",
-    "main.872d289a.js.map": "/static/js/main.872d289a.js.map",
+    "main.2bea545f.css.map": "/static/css/main.2bea545f.css.map",
+    "main.902c24a6.js.map": "/static/js/main.902c24a6.js.map",
     "787.22e3b59d.chunk.js.map": "/static/js/787.22e3b59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fdf0343.css",
-    "static/js/main.872d289a.js"
+    "static/css/main.2bea545f.css",
+    "static/js/main.902c24a6.js"
   ]
 }
