@@ -1,32 +1,33 @@
 import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
-import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+// import { motion } from "framer-motion";
+// import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
-import { urlFor, client } from "../../client";
+// import { urlFor, client } from "../../client";
+import GitHubCalendar from "react-github-calendar";
 import "./Testimonials.scss";
 
 const Testimonials = () => {
-  const [brands, setBrands] = useState([]);
-  const [testimonials, setTestimonials] = useState([]);
-  const [currentIndex, setcurrentIndex] = useState(0);
-  const handleClick = (index) => {
-    setcurrentIndex(index);
-  };
-  useEffect(() => {
-    const query = '*[_type == "testimonials"]';
-    const brandsQuery = '*[_type == "brands"]';
-    client.fetch(query).then((data) => {
-      setTestimonials(data);
-    });
-    client.fetch(brandsQuery).then((data) => {
-      setBrands(data);
-    });
-  }, []);
-  const test = testimonials[currentIndex];
+  // const [brands, setBrands] = useState([]);
+  // const [testimonials, setTestimonials] = useState([]);
+  // const [currentIndex, setcurrentIndex] = useState(0);
+  // const handleClick = (index) => {
+  //   setcurrentIndex(index);
+  // };
+  // useEffect(() => {
+  //   const query = '*[_type == "testimonials"]';
+  //   const brandsQuery = '*[_type == "brands"]';
+  //   client.fetch(query).then((data) => {
+  //     setTestimonials(data);
+  //   });
+  //   client.fetch(brandsQuery).then((data) => {
+  //     setBrands(data);
+  //   });
+  // }, []);
+  // const test = testimonials[currentIndex];
   return (
     <>
-      {testimonials.length && (
+      {/* {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
             <img src={urlFor(test.imgurl)} alt="testimonial" />
@@ -76,6 +77,44 @@ const Testimonials = () => {
             <img src={urlFor(brand.imgUrl)} alt={brand.name} />
           </motion.div>
         ))}
+      </div> */}
+      <div>
+        <p className="text-4xl font-bold text-center mt-10">
+          GitHub <span className="text-violet-600">Calendar</span>
+        </p>
+      </div>
+      <div className="w-full mt-5">
+        <GitHubCalendar
+          username="AvinashPatel15"
+          blockSize={20}
+          blockMargin={5}
+          fontSize={18}
+        />
+      </div>
+      <div>
+        <p className="text-4xl font-bold text-center mt-10">
+          GitHub <span className="text-violet-600">Stats</span>
+        </p>
+      </div>
+      <div className="w-full md:grid md:grid-cols-2 md:auto-rows-auto gap-x-5 gap-y-5 mt-5">
+        <div>
+          <img
+            src="https://github-readme-streak-stats.herokuapp.com/?user=avinashpatel15&theme=radical"
+            alt="Github Streak"
+          />
+        </div>
+        <div>
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=avinashpatel15&theme=radical&count_private=true&show_icons=true"
+            alt="github stats"
+          />
+        </div>
+        <div>
+          <img
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=avinashpatel15&theme=radical"
+            alt=""
+          />
+        </div>
       </div>
     </>
   );

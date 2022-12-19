@@ -36,9 +36,21 @@ import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
 import profile1 from "../assets/profile1.jpg";
 import profile2 from "../assets/profile2.png";
-import profile_logo from "../assets/profile_logo.png"
-import profile1_logo from "../assets/profile1_logo.png"
+import profile_logo from "../assets/profile_logo.png";
+import profile1_logo from "../assets/profile1_logo.png";
+import about_section_photo from "../assets/about_section_photo.svg";
+import booking_shot from "../assets/booking_shot.jpg";
+import shine_shot from "../assets/shine_shot.jpg";
+import geekbuying_shot from "../assets/geekbuying_shot.jpg";
+import chakra_ui from "../assets/chakra_ui.png";
+import nextjs_icon from "../assets/nextjs_icon.png";
 const images = {
+  nextjs_icon,
+  chakra_ui,
+  booking_shot,
+  shine_shot,
+  geekbuying_shot,
+  about_section_photo,
   profile_logo,
   profile1_logo,
   profile2,

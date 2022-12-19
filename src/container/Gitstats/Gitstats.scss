@@ -1,0 +1,53 @@
+.app__github-stats{
+    margin-top: 20px;
+    .app__github-stats-first{
+
+        display: flex;
+        gap: 20px;
+   
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             max-width: 400px;
+             @media screen and (max-width: 900px) {
+                max-width: 370px;
+             }
+            img{
+                width: 100%;
+                @media screen and (max-width: 500px) {
+                    width: 90%;
+           
+                 }
+
+            }
+        }
+    }
+    .app__github-stats-second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 14px;
+        img{
+            @media screen and (max-width: 580px) {
+                width: 90%;
+       
+             }
+        }
+    }
+    .app__github-calander{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        width: 100%;
+        article{
+            width: 100%;
+        }
+        
+    }
+}

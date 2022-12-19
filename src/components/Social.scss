@@ -1,0 +1,32 @@
+.social_small_screen{
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background-color: rgba(255, 255, 255, 0.25);
+    position: fixed;
+    z-index: 100;
+    padding: 8px;
+    bottom: 0;
+    left: 0;
+    div {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: var(--secondary-color);
+        margin: 0.25rem 0;
+        border: 1px solid var(--lightGray-color);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    
+        svg {
+          width: 15px;
+          height: 15px;
+          color: var(--white-color);
+        }
+    }
+    @media screen and (min-width: 500px) {
+        display: none;
+    }
+}

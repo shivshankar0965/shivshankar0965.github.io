@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const navLinks = [
   { title: "home", link: "home" },
   { title: "about", link: "about" },
-  { title: "projects", link: "works" },
+  { title: "projects", link: "work" },
   { title: "skills", link: "skills" },
   { title: "contact", link: "contact" },
   {
@@ -37,7 +37,7 @@ const Navbar = () => {
         <HiMenuAlt4 onClick={() => setToggle(true)} />
         {toggle && (
           <motion.div
-            whileInView={{ x: [300, 0] }}
+            // whileInView={{ x: [300, 0] }}
             transition={{ duration: 0.85, ease: "easeOut" }}
           >
             <HiX onClick={() => setToggle(false)} />
