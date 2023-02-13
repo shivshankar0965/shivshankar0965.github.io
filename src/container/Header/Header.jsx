@@ -17,10 +17,13 @@ const scaleVariants = {
   },
 };
 const Header = () => {
-  const handleDownloadLink = () => {
-    const path = `https://drive.google.com/uc?export=download&id=1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf`;
-    window.location.href = path;
-  };
+  // const handleDownloadLink = () => {
+  //   const path = `https://drive.google.com/uc?export=download&id=1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf`;
+  //   window.open(
+  //     "https://drive.google.com/file/d/1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf/view?usp=share_link"
+  //   );
+  //   window.location.href = path;
+  // };
 
   return (
     <div className="app__header app__flex">
@@ -51,9 +54,19 @@ const Header = () => {
             whileInView={{ x: [100, 0], opacity: [0, 1] }}
             transition={{ duration: 0.5 }}
             className={` resume-download-btn app__flex`}
-            onClick={handleDownloadLink}
+            // onClick={handleDownloadLink}
           >
-            <span>Resume</span> <BsCloudDownload />
+            <a
+              className="resume-download-btn-link"
+              href="https://drive.google.com/uc?export=download&id=1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf"
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf/view?usp=share_link"
+                )
+              }
+            >
+              <span>Resume</span> <BsCloudDownload />
+            </a>
           </motion.div>
         </div>
       </motion.div>

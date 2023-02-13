@@ -44,7 +44,9 @@ import shine_shot from "../assets/shine_shot.jpg";
 import geekbuying_shot from "../assets/geekbuying_shot.jpg";
 import chakra_ui from "../assets/chakra_ui.png";
 import nextjs_icon from "../assets/nextjs_icon.png";
+import we_fit from "../assets/we_fit.png";
 const images = {
+  we_fit,
   nextjs_icon,
   chakra_ui,
   booking_shot,

@@ -51,6 +51,22 @@ const projects = [
     githubLink: "https://github.com/shivshankar0965/plucky-cub-1995",
     deployed: "https://stately-tiramisu-812d49.netlify.app/",
   },
+  {
+    id: 4,
+    poster: images.we_fit,
+    title: "We-Fit.netlify.app",
+    description:
+      "WEFIT is a body fitness website where users can choose from hundreds of professionally built workout plans",
+    stacksIcons: [
+      { icon: images.html, label: "HTML" },
+      { icon: images.css, label: "CSS" },
+      { icon: images.javascript, label: "Javascript" },
+      { icon: images.chakra_ui, label: "ChakraUI" },
+      { icon: images.react, label: "React" },
+    ],
+    githubLink: "https://github.com/vaibhav-mougha/WEFIT",
+    deployed: "https://we-fit.netlify.app/",
+  },
 ];
 const Work = () => {
   return (

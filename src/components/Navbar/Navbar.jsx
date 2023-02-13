@@ -27,6 +27,11 @@ const Navbar = () => {
             <div />
             <a
               href={item.title === "resume" ? `${item.link}` : `#${item.link}`}
+              onClick={() =>
+                window.open(
+                  "https://drive.google.com/file/d/1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf/view?usp=share_link"
+                )
+              }
             >
               {item.title}
             </a>
@@ -47,6 +52,11 @@ const Navbar = () => {
                   <a
                     href={
                       item.title === "resume" ? `${item.link}` : `#${item.link}`
+                    }
+                    onClick={() =>
+                      window.open(
+                        "https://drive.google.com/file/d/1E45u-pv1wtiAjsHpKSrey_gqQ0NxMYtf/view?usp=share_link"
+                      )
                     }
                   >
                     {item.title}

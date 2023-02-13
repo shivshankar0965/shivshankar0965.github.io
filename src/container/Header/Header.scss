@@ -83,20 +83,26 @@
     cursor: pointer;
     margin: 0 auto;
     margin-top: 1rem;
-    padding: 0.3rem 1rem;
+    
     color: #fff;
     border-radius: 10px;
     transition: all ease-in-out 0.3s;
-    span {
-      font-size: 1.2rem;
-      margin-right: 0.5rem;
-      transition: all ease-in-out 0.3s;
-    }
-    &:hover {
+    .resume-download-btn-link{
+      padding: 0.3rem 1rem;
+      text-decoration: none;
+      color: #fff;
       span {
-        margin-right: 1.5rem;
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+        transition: all ease-in-out 0.3s;
+      }
+      &:hover {
+        span {
+          margin-right: 1.5rem;
+        }
       }
     }
+    
   }
 }
 .app__header-circles {
