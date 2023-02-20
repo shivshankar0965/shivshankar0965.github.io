@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc89be04.css",
-    "main.js": "/static/js/main.f24be07e.js",
+    "main.css": "/static/css/main.aa15f8b7.css",
+    "main.js": "/static/js/main.208c8e30.js",
     "static/js/787.22e3b59d.chunk.js": "/static/js/787.22e3b59d.chunk.js",
     "static/media/profile2.png": "/static/media/profile2.b4c370616b9af12ec554.png",
+    "static/media/profile2.jpg": "/static/media/profile2.11ed646367073a2cbf53.jpg",
     "static/media/profile1.jpg": "/static/media/profile1.fdb986cac8ca0a9e0a29.jpg",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
     "static/media/about02.png": "/static/media/about02.7a3df03410ee756268ec.png",
@@ -12,6 +13,7 @@
     "static/media/bgIMG.png": "/static/media/bgIMG.c39101e520e2997fc6d4.png",
     "static/media/bgWhite.png": "/static/media/bgWhite.79658cadae50b3b16ee5.png",
     "static/media/profile.png": "/static/media/profile.ee489764521abe34026b.png",
+    "static/media/rm_bg_profile.png": "/static/media/rm_bg_profile.0452fbc5e2ac8587c634.png",
     "static/media/geekbuying_shot.jpg": "/static/media/geekbuying_shot.dbde386f80ce93a5e5d2.jpg",
     "static/media/about03.png": "/static/media/about03.c26c2547bb1a423cf283.png",
     "static/media/shine_shot.jpg": "/static/media/shine_shot.8b0928e39ea2dd3f1522.jpg",
@@ -41,12 +43,12 @@
     "index.html": "/index.html",
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "static/media/vercel.svg": "/static/media/vercel.f3f027167221cb9d3b992325a25f1769.svg",
-    "main.dc89be04.css.map": "/static/css/main.dc89be04.css.map",
-    "main.f24be07e.js.map": "/static/js/main.f24be07e.js.map",
+    "main.aa15f8b7.css.map": "/static/css/main.aa15f8b7.css.map",
+    "main.208c8e30.js.map": "/static/js/main.208c8e30.js.map",
     "787.22e3b59d.chunk.js.map": "/static/js/787.22e3b59d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc89be04.css",
-    "static/js/main.f24be07e.js"
+    "static/css/main.aa15f8b7.css",
+    "static/js/main.208c8e30.js"
   ]
 }
