@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.aa15f8b7.css",
-    "main.js": "/static/js/main.208c8e30.js",
+    "main.js": "/static/js/main.b1501d10.js",
     "static/js/787.22e3b59d.chunk.js": "/static/js/787.22e3b59d.chunk.js",
     "static/media/profile2.png": "/static/media/profile2.b4c370616b9af12ec554.png",
+    "static/media/violeta_app.png": "/static/media/violeta_app.74accf93fbcfaa94c330.png",
     "static/media/profile2.jpg": "/static/media/profile2.11ed646367073a2cbf53.jpg",
     "static/media/profile1.jpg": "/static/media/profile1.fdb986cac8ca0a9e0a29.jpg",
     "static/media/about04.png": "/static/media/about04.fa7b3a72ed32b0e25bfb.png",
@@ -44,11 +45,11 @@
     "static/media/circle.svg": "/static/media/circle.134eeeb1e58895b892195fe8ed63bc9f.svg",
     "static/media/vercel.svg": "/static/media/vercel.f3f027167221cb9d3b992325a25f1769.svg",
     "main.aa15f8b7.css.map": "/static/css/main.aa15f8b7.css.map",
-    "main.208c8e30.js.map": "/static/js/main.208c8e30.js.map",
+    "main.b1501d10.js.map": "/static/js/main.b1501d10.js.map",
     "787.22e3b59d.chunk.js.map": "/static/js/787.22e3b59d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa15f8b7.css",
-    "static/js/main.208c8e30.js"
+    "static/js/main.b1501d10.js"
   ]
 }
